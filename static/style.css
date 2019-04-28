@@ -1,33 +1,21 @@
-a {
-  font-size: 2em;
-  color: darkgrey;
-  text-decoration: none;
-}
-
-h1 {
-  font-size: 1.2em;
-  color: #0c0c0c;
-}
-
-h2 {
-  font-size: 1em;
-}
-
-p {
-  font-size: 12px;
-}
-
 body {
   padding-top: 2em;
-  margin-bottom: 3em;
-  font-family: 'Open Sans', sans-serif;
-  color: darkgrey;
-  line-height: 1em;
+  font-family: sans-serif;
 }
 
 .navbar {
   background: #333;
   border-bottom: 1px solid #222;
+}
+
+.navbar li {
+  list-style-type: none;  
+}
+
+.navbar a {
+  color: #999;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  text-decoration: none;
 }
 
 .navbar {
@@ -39,41 +27,5 @@ body {
   padding-bottom: .3em;
   left: 0; right: 0;
   top: 0;
-}
-
-.navbar .internal {
-  max-width: 97%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.navbar li {
-  margin-top: .15em;
-  float: left;
-  margin-right: .6em;
-  margin-left: .3em;
-  list-style-type: none;
-}
-
-.navbar li.right {
-  padding-left: .4em;
-  padding-right: .4em;
-  margin-top: .3em;
-  margin-right: 1.7em;
-  float: right;
-  list-style-type: none;
-  background: #333;
-  border-radius: 100%;
-}
-
-.navbar a {
-  color: #999;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  text-decoration: none;
-}
-
-.navbar a:hover, .navbar a:focus {
-  color: #fff;
-  text-decoration: none;
 }
 

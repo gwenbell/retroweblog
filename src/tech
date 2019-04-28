@@ -1,5 +1,6 @@
 {
 "title": "tech",
+"date": "Sun, 28 Apr 2019 13:03:03 -0500",
 "post": "What's happening here is I'm building a static site generator in Deno, which was created by the same man that created Node.js -- @ry.  He created it and now lots of us are working on things connected to it. I wanted a static site generator built in Deno, and since a few searches on startpage indicated that no one had yet made one, I figured I would. There are still loads of things needed: a markdown parser for starters. But I have a few part-time things happening, so when I'm not doing that, I'm doing yoga. Or coding. Or walking around the neighborhood, witnessing Spring."
 }
 
