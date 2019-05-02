@@ -1,11 +1,11 @@
 body {
-  padding-top: 2em;
+  padding-top: 3em;
   font-family: sans-serif;
 }
 
 .navbar {
-  background: #333;
-  border-bottom: 1px solid #222;
+  padding-left: .5em;
+  background: #fff;
 }
 
 .navbar li {
@@ -13,9 +13,13 @@ body {
 }
 
 .navbar a {
+  font-size: 1.2em;
   color: #999;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #000;
 }
 
 .navbar {
@@ -23,9 +27,12 @@ body {
   position: fixed;
   z-index: 1000;
   margin: 0;
-  padding-top: .3em;
+  padding-top: 1em;
   padding-bottom: .3em;
   left: 0; right: 0;
   top: 0;
 }
 
+h1 {
+  font-size: 1em;
+}

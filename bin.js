@@ -1,5 +1,3 @@
-import { moment } from "https://deno.land/x/moment/moment.ts"
-
 async function main () {
 
   var encoder = new TextEncoder("utf-8")
@@ -32,9 +30,7 @@ async function main () {
 
     var parsed = JSON.parse(decoder.decode(data))  
 
-    var formadate = moment(parsed.date).format("YYYY-MM-DD")
-
-    var structure =header + '<h1>' + parsed.title + '</h1>' + '<p>' + formadate + '</p>' + '<p>' + parsed.post + '</p>' + footer 
+    var structure =header + '<h1>' + parsed.title + '</h1>' + '<p class="date">' + parsed.date + '</p>' + '<p>' + parsed.post + '</p>' + footer 
   
     var compiled = encoder.encode(structure)
 
